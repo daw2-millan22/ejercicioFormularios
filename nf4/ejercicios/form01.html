@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<form method="post" action="formprocess01.php">
+		<p>
+			quien eres?
+			<input type="text" name="nombre">
+		</p>
+		<p>
+			que pelicula vas a puntuar ?
+			<input type="text" name="pelicula">
+		</p>
+		<p>
+			puntua la pelicula del 1 al 5 
+			<input type="number" min="1" max="5" name="puntuacion">
+		</p>
+		<p>
+			haz un comentario sobre la pelicula
+		</p>
+		<textarea name="comentario" id="coment" cols="30" rows="10"></textarea>
+		<input type="submit">
+	</form>
+</body>
+</html>
